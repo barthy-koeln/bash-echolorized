@@ -1,6 +1,6 @@
 # Script IO: Pretty and minimal bash output
 
-This library helps you write prettier scripts for CI/CD, git hooks, ...
+This library helps you write prettier bash scripts for CI/CD, git hooks, ...
 
 ## Installation
 
@@ -97,9 +97,9 @@ colored_output() {
 
 ```shell
 tagged_output() {
-# $1: Color
-# $2: Tag
-# $3: After tag
-# $4: Before tag (tabs, newlines, ...)
+  # $1: Color
+  # $2: Tag
+  # $3: After tag
+  # $4: Before tag (tabs, newlines, ...)
 }
 ```
