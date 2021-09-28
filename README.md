@@ -65,3 +65,41 @@ Output:
 
 ![Advanced usage output with error](./output_advanced-error.png)
 ![Advanced usage output with success](./output_advanced-success.png)
+___
+
+
+```shell
+tagged_output "$YELLOW" "BUILD" "Fetching dependencies"
+tagged_output "$YELLOW" "BUILD" "Building bundles"
+tagged_output "$YELLOW" "BUILD" "Making binaries executable"
+tagged_output "$GREEN" "TEST" "Tests are green" " "
+
+tagged_output "$RED" "¯\_(ツ)_/¯" "Dunno..?\n" "\n"
+
+tagged_output "$YELLOW" "DIRECTORY" "src"
+tagged_output "$GREEN" "FILE" "README.md" "\t"
+tagged_output "$GREEN" "FILE" "package.json" "\t"
+tagged_output "$GREEN" "FILE" "composer.json" "\t"
+```
+
+Output:
+
+![Advanced usage output with error](./output_tagged.png)
+
+### Methods:
+
+```shell
+colored_output() {
+  # $1: Color
+  # $2: Text
+}
+```
+
+```shell
+tagged_output() {
+# $1: Color
+# $2: Tag
+# $3: After tag
+# $4: Before tag (tabs, newlines, ...)
+}
+```
