@@ -1,0 +1,16 @@
+{
+  "name": "bash-echolorized",
+  "version": "1.0.0",
+  "description": "Pretty and minimal bash output",
+  "main": "index.js",
+  "repository": "https://github.com/barthy-koeln/bash-echolorized",
+  "author": "Barthy <post@barthy.koeln>",
+  "license": "MIT",
+  "private": false,
+  "bin": {
+    "echolorized": "./bin/echolorized"
+  },
+  "files": [
+    "./bin/echolorized"
+  ]
+}

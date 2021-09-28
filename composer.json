@@ -1,0 +1,17 @@
+{
+  "name": "barthy-koeln/bash-echolorized",
+  "version": "1.0.0",
+  "description": "Pretty and minimal bash output",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Barthy",
+      "email": "post@barthy.koeln"
+    }
+  ],
+  "require": {},
+  "bin": [
+    "bin/echolorized"
+  ]
+}
